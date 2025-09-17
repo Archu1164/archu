@@ -8,7 +8,7 @@
 
 class Person:
     def __init__(self, name):
-        self.name = name  # store name in the object
+        self.name = name 
     def greet(self):
         print("Hello, my name is", self.name)
 # Create an object
