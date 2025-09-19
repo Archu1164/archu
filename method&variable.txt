@@ -1,0 +1,58 @@
+1.#Variable
+A variable is used to store data (attributes/properties of an object).
+It represents the state of an object.
+
+Example: name, age, balance in a Person or BankAccount class.
+Types of variables:
+>Instance Variable – belongs to each object (defined inside methods using self).
+>Class Variable – shared by all objects of the class (defined inside the class but outside methods).
+>Local Variable – temporary, defined inside methods and destroyed after method ends.
+
+#Method
+A method is a function defined inside a class that operates on variables (attributes).
+It represents the behavior of an object.
+
+Example: deposit(), withdraw() in BankAccount class.
+Types of methods:
+>Instance Method – works with instance variables (takes self).
+>Class Method – works with class variables (uses @classmethod and cls).
+>Static Method – doesn’t depend on object or class (uses @staticmethod).
+
+2.#what is @
+
+It is a shorthand way to apply a function (decorator) to another function or method.
+In classes (OOP), it is mostly used to define special types of methods:
+@classmethod
+@staticmethod
+@property
+
+3.#WHY AND WHEN WE USE THE STATIC METHOD?
+#Why we use @staticmethod:
+>Some behaviors are related to a class but don’t depend on the object’s attributes (self) or class variables (cls).
+>Instead of keeping those functions outside the class, we put them inside with @staticmethod to keep code organized and grouped logically.
+
+#When to use:
+>When you need a utility/helper method inside a class.
+>When the method does not change or use object/class data.
+>Example: validation, conversions, or common calculations.
+
+4#.Why and when we use the class method?
+#Why use @classmethod:
+>A class method works with the class itself (not just objects).
+>It can access and change class variables using cls.
+>We use it when behavior should apply to all objects of the class, not just one.
+
+#When to use:
+>To modify class-level data.
+>To create alternative constructors (different ways to create objects).
+>When you need a method that belongs to the class as a whole.
+
+5#.what is inner class and outer class
+#Outer Class:
+>A normal class that we define.
+>It can contain attributes, methods, and even other classes inside it.
+
+#Inner Class:
+>A class defined inside another class.
+>It is used when the inner class is only meaningful in the context of the outer class.
+>Helps in grouping related code together and achieving better encapsulation.
