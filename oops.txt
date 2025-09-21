@@ -1,0 +1,21 @@
+1Class:
+A class is a blueprint or template in OOP (Object-Oriented Programming).
+It defines properties (variables/attributes) and behaviors (methods/functions) but does not hold actual data by itself.
+
+*Think of a class like the design/blueprint of a house.
+
+2.Object:
+An object is an instance of a class.
+When you create an object, Python allocates memory and the object holds actual data.
+
+3.what is constructor
+.Its main purpose is to initialize the object’s instance variables.
+.It runs automatically when you create an object.
+.You can pass arguments to the constructor to set initial values.
+
+4.what is reference variable
+.A reference variable is a variable that refers (points) to an object in memory.
+.When you create an object, Python stores it in memory, and the variable just holds the reference (address) of that object, not the actual object itself.
+.Multiple reference variables can point to the same object.
+
+
