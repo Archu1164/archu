@@ -1,0 +1,42 @@
+REST Architecture (Normal Explanation)
+
+REST means Representational State Transfer.
+
+it is way of designing web services where communication happens over https using standard methods like
+GET:read data
+POST:Crate data
+PUT:update data
+DELETE:
+remove data
+>client and server are independent
+>uses resorces(like users,products,identified by urls.
+>data is usually sent json.
+>it is stateless:each request contains all the info needed ,server doesn't store client state
+
+HOW DO YOU TEST APIs?
+Testing API means checking if the work as expected
+comon ways to Test APIs
+
+Manual Testing with Tools:
+Use tools like Postman, cURL, or Insomnia.
+You send requests (GET, POST, PUT, DELETE) to the API and check if the response is correct.
+
+Write test scripts using frameworks:
+Python → pytest, unittest, requests library
+JavaScript → Jest, Mocha, Supertest
+These tests run automatically and check if APIs work as expected.
+Check Important Things:
+
+.Status Codes → 200 (success), 404 (not found), 500 (server error), etc.
+.Response Body → Does it return the correct data?
+.Headers → Check content type (JSON, XML).
+.Performance → Is the response fast?
+.Security → Authentication, authorization, input validation.
+
+Web Application
+A web application is a type of software program that runs on a web server and you can use it through a web browser (like Chrome, Firefox, Edge
+How it Works:
+You open a browser and type a website address (URL).
+The browser sends a request to the web server.
+The server processes it (maybe using Python, Java, PHP, etc.) and sends back a response (HTML, CSS, JavaScript).
+You see the result as a web page or app screen.
