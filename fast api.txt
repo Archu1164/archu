@@ -1,0 +1,169 @@
+Features of Web Applications:
+-Platform Independent – Runs on any device (Windows, Mac, Linux, mobile) using just a web browser.
+-Accessible Anywhere – Can be accessed from any location with internet.
+-Cross-Browser Compatibility – Works on different browsers (Chrome, Edge, Firefox, Safari).
+-No Installation Required – Users don’t need to install software; just open a URL.
+-Centralized Updates – Updates are applied on the server, so all users get the latest version instantly.
+-Responsive Design – Adjusts to different screen sizes (desktop, tablet, mobile).
+-Scalability – Can handle more users/data as the business grows.
+-Security Features – Uses authentication, encryption (HTTPS), and access control.
+-Interactive UI – Provides dynamic content (using HTML, CSS, JavaScript, AJAX, etc.).
+-Integration Friendly – Can connect with APIs, databases, payment gateways, and third-party services.
+-Multi-user Support – Allows multiple users to log in and use at the same time.
+-Cloud-based Hosting – Often hosted on cloud servers for high availability and performance.
+-Cost-Effective – Less maintenance for users since no client-side installation.
+Example: Gmail, Facebook, Instagram, and online banking apps are all web applications.
+
+what is owasp?
+OWASP stands for Open Web Application Security Project.
+It is a worldwide non-profit organization focused on improving the security of software and web applications.
+=Key Points about OWASP:
+Community-driven – It’s an open community of developers, security experts, and organizations.
+Free & Open Resources – Provides tools, guidelines, and documentation for secure coding.
+OWASP Top 10 – Its most famous project, which lists the 10 most critical web application security risks (like SQL Injection, Cross-Site Scripting, etc.).
+Projects & Tools – Offers free tools like OWASP ZAP (security testing tool), cheat sheets, and secure coding practices.
+Goal – To help developers, testers, and businesses build secure applications.
+
+FastAPI:-
+FastAPI is a modern, high-performance web framework for Python that is mainly used to build APIs quickly.
+ It is designed to be fast, easy to use, and supports asynchronous programming. It also creates automatic documentation for your APIs.
+
+Django:-
+Django is a full-stack web framework for Python that helps developers build complete web applications. 
+It comes with many built-in features like a database ORM, authentication system, admin panel, and template engine, which makes it great for building large and complex websites.
+
+So:-
+FastAPI = Fast, API-focused framework
+Django = Complete framework for big web application
+
+differences of fastapi and django?
+fastapi:-
+1.Mainly used for building APIs.
+2.Very fast because it supports asynchronous programming.
+3.Provides automatic API documentation (Swagger, ReDoc).
+4.Lightweight → needs external libraries for database, authentication, etc.
+5.Best for microservices, ML model deployment, and real-time apps.
+6.Newer framework → smaller community but growing quickly.
+
+ Django:-
+1.A full-stack framework (can build complete websites).
+2.Not as fast as FastAPI but very stable and reliable.
+3.No auto API docs by default (needs Django REST Framework for APIs).
+4.Comes with many built-in features → ORM, Authentication, Admin panel, Templates.
+5.Best for large projects like e-commerce, social media, CMS.
+6.Older framework → very large community and ecosystem.
+
+AWS (Amazon Web Services)
+-AWS is Amazon’s cloud computing platform.
+-It provides services like computing (EC2), storage (S3), databases (RDS, DynamoDB), networking, machine learning, and more.
+-It’s the largest and most popular cloud provider worldwide.
+
+Example: If you want to host a website or run an app, AWS gives you servers, databases, and storage on the cloud.
+
+GCP (Google Cloud Platform)
+-GCP is Google’s cloud computing platform.
+-It offers similar services as AWS: computing (Compute Engine), storage (Cloud Storage), databases (BigQuery, Firestore), networking, AI, and analytics.
+-Known for data analytics, machine learning, and integration with Google’s services.
+
+Example: If you want to analyze big data or train ML models, GCP has powerful tools.
+
+ In short:
+AWS = Amazon’s cloud
+GCP = Google’s cloud
+
+Who are all Cloud Providers?
+
+-AWS (Amazon Web Services) – Amazon’s cloud platform; largest and most popular. Offers compute, storage, databases, AI, and more.
+-GCP (Google Cloud Platform) – Google’s cloud; strong in data analytics, machine learning, and integration with Google services.
+-Microsoft Azure – Microsoft’s cloud; widely used by enterprises, integrates well with Windows and Office products.
+-IBM Cloud – Offers cloud services with a focus on AI (Watson) and enterprise solutions.
+-Oracle Cloud – Oracle’s cloud platform; strong in databases and enterprise apps.
+-Alibaba Cloud – China’s biggest cloud provider; offers services similar to AWS, popular in Asia.
+-Salesforce (Heroku, etc.) – Cloud mainly for CRM, apps, and SaaS solutions.
+
+--what is http,https,tcp/ip,udp (protocols)?
+HTTP (HyperText Transfer Protocol)
+A protocol used by web browsers and servers to communicate.
+It is not secure, meaning the data is sent in plain text.
+
+Example: http://www.example.com
+
+2. HTTPS (HyperText Transfer Protocol Secure)
+A secure version of HTTP.
+Uses encryption (SSL/TLS) to protect data during transmission.
+
+Example: https://www.example.com
+
+Always preferred for sensitive data like passwords and banking info.
+
+3. TCP/IP (Transmission Control Protocol / Internet Protocol)
+TCP/IP is actually a suite of protocols used for sending data over the internet.
+TCP ensures reliable, ordered, and error-checked delivery of data.
+IP is responsible for addressing and routing packets to the correct destination.
+
+Example: When you send an email, TCP/IP makes sure it reaches the right server without losing any data.
+
+4. UDP (User Datagram Protocol)
+Another protocol in the TCP/IP suite.
+Faster but unreliable – it sends data without checking for errors or order.
+Used where speed is more important than accuracy.
+
+Example: Online gaming, live video streaming, VoIP calls.
+
+-What is html,react,css,angular?
+1.HTML (HyperText Markup Language)
+The basic building block of web pages.
+Used to structure content on a website (headings, paragraphs, links, images).
+
+Example: <h1>Hello World</h1> displays a heading.
+
+2. CSS (Cascading Style Sheets)
+Used to style and design web pages.
+Controls colors, fonts, layouts, and responsiveness.
+
+Example: Making text red or centering a button.
+
+3. React
+A JavaScript library for building user interfaces, mainly dynamic web apps.
+Developed by Facebook.
+Helps create interactive, fast, and reusable UI components.
+
+Example: Facebook’s news feed is built using React.
+
+4. Angular
+A full-featured JavaScript framework for building dynamic web applications.
+Developed by Google.
+Includes tools for routing, forms, HTTP requests, and more, so you don’t need extra libraries.
+
+Example: Google’s Gmail web app uses Angular.
+
+What is SQL,MY SQL, PLSQL,DB2 AND NO SQL?
+1. SQL (Structured Query Language)
+A language used to interact with databases.
+Helps you create, read, update, and delete data (CRUD operations).
+Example: SELECT * FROM users; retrieves all users from a database.
+SQL itself is not a database, just the language.
+
+2. MySQL
+A relational database management system (RDBMS) that uses SQL.
+Stores data in tables with rows and columns.
+Open-source and widely used for web applications.
+Example: Websites like WordPress use MySQL to store data.
+
+3.PL/SQL (Procedural Language / SQL)
+PL/SQL is an extension of SQL developed by Oracle.
+It allows you to write programming logic (like loops, conditions, functions, and procedures) inside SQL.
+While SQL is just for querying data, PL/SQL lets you add logic and control flow to work with data.
+
+4. DB2
+A relational database system by IBM.
+Similar to MySQL but often used in large enterprises.
+Supports SQL and advanced features for performance, analytics, and security.
+
+5. NoSQL
+Stands for “Not Only SQL”.
+Designed for unstructured or semi-structured data (like JSON, key-value pairs, documents).
+Examples: MongoDB, Cassandra, Redis.
+Good for big data, real-time apps, and flexible schemas.
+
+
