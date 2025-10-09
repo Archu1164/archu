@@ -1,0 +1,38 @@
+Git Commands and Their Explanations
+Command	Explanation (in simple words)
+git config --global user.name "Your Name"	        - Sets your name for all commits. Used only once when setting up Git.
+git config --global user.email "your_email@example.com"	- Sets your email address for your commits.
+git init	                                        - Initializes (creates) a new Git repository in the current folder.
+git clone <repository_url>	                        - Copies an existing remote GitHub repository to your local system.
+git status	                                        - Shows the current status of files — which are modified, staged, or untracked.
+git add <file_name>	                                - Adds a specific file to the staging area (prepares it for commit).
+git add .                      	                        - Adds all changed files in the current directory to the staging area.
+git commit -m "message"	                                - Saves the staged changes to the local repository with a short message.
+git log	                                                - Displays the history of commits made in the repository.
+git diff	                                        - Shows the differences between modified files and the last committed version.
+git branch	                                        - Lists all branches in your repository. The active one is marked with *.
+git branch <branch_name>	                        - Creates a new branch for separate development.
+git checkout <branch_name>	                        - Switches from one branch to another.
+git merge <branch_name>	                                - Merges the specified branch into the current branch.
+git remote add origin <repository_url>                  - Connects your local repository to a remote one on GitHub.
+git push origin <branch_name>	                        - Uploads your local commits to the GitHub repository.
+git push --set-upstream origin <branch_name>	        - Sets up a new branch on GitHub and pushes it for the first time.
+git pull	                                        - Fetches and merges changes from the remote repository to your local one.
+git fetch	                                        - Downloads updates from GitHub but doesn’t merge them automatically.
+git rm <file_name>	                                - Removes a file from both the working directory and Git tracking.
+git restore <file_name>                         	- Discards changes in a file and restores it to the last committed version.
+git reset <file_name>	                                - Unstages a file that was added with git add.
+git reset --hard	                                - Removes all uncommitted changes (warning: cannot be undone easily).
+git revert <commit_id>                           	- Creates a new commit that undoes the changes from a specific commit.
+git show <commit_id>	                                - Shows details of a specific commit (changes, author, date, etc.).
+git tag <tag_name>	                                - Creates a tag (used for marking releases or versions).
+git stash	                                        - Temporarily saves your uncommitted changes so you can work on something else.
+git stash pop	                                        - Restores your stashed (saved) changes back to your workspace.
+
+
+--difine conflict and rollback?
+Conflict (in GitHub)
+A conflict occurs when two or more people make different changes to the same part of a file, and Git cannot automatically decide which change to keep.
+
+Rollback (in GitHub)
+A rollback means undoing recent changes and returning the project to a previous version or commit that was working correctly.
