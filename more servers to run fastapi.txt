@@ -1,0 +1,56 @@
+What is an ASGI Server?
+ASGI stands for Asynchronous Server Gateway Interface.
+It is a standard interface between Python web frameworks (like FastAPI) and web servers.
+ASGI is the successor to WSGI (used in Django/Flask) and supports asynchronous (async/await) operations.
+
+ASGI Servers for FastAPI
+1️.Uvicorn:
+Uvicorn is a lightning-fast ASGI server built on uvloop and httptools.
+It’s the default and most recommended server for running FastAPI apps.
+It’s designed for speed, simplicity, and asynchronous performance.
+
+Features:
+Very lightweight and easy to use.
+Supports both HTTP and WebSocket.
+Great for development and production (with multiple workers).
+
+Example:
+uvicorn main:app --reload
+--reload reloads the server automatically when you edit your code.
+
+2️.Hypercorn
+Hypercorn is another ASGI server, developed by the same community as Quart.
+It supports both HTTP/1, HTTP/2, and WebSockets.
+It’s a good alternative to Uvicorn for developers who prefer different configuration styles.
+
+Features:
+Supports more protocols (HTTP/2, QUIC, etc.).
+Can be configured using a TOML or YAML file.
+Works well for both async and sync applications.
+
+Example:
+hypercorn main:app --reload
+
+3️.Daphne
+Daphne is developed by the Django Channels project team.
+It was one of the first ASGI servers and is focused on handling WebSockets and long-lived connections.
+
+Features:
+Good for real-time apps (chat, live updates).
+Stable and mature project.
+Can be used with Django Channels or FastAPI.
+
+Example:
+daphne main:app
+
+4️.Gunicorn (with Uvicorn workers)
+Gunicorn itself is a WSGI server, but by using Uvicorn workers, it can run ASGI apps like FastAPI.
+It’s commonly used in production environments for scalability and reliability.
+
+Features:
+Handles multiple processes (multi-worker support).
+Excellent for production load balancing.
+Combined with Uvicorn for async support.
+
+Example:
+gunicorn main:app -k uvicorn.workers.UvicornWorker
