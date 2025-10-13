@@ -1,0 +1,23 @@
+Virtual Codes in a Software Server
+
+1.Definition:
+Virtual codes are numeric codes used by software to identify keys or virtual entities without directly interacting with hardware.
+
+2.Keyboard Virtual Codes (common case):
+Represent keys like A, B, Enter, Shift, etc.
+Used in programming and server software to detect key presses.
+
+3.Number of Codes:
+There are 256 standard virtual key codes (0–255).
+Some are for letters, numbers, function keys, or system keys.
+
+4.Other Virtual Codes in Software:
+Could represent virtual sessions, devices, or objects on a server.
+The number depends on the software design, not fixed.
+
+5.Example:
+0x41 → A
+
+0x30 → 0
+
+0x0D → Enter
