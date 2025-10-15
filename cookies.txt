@@ -1,0 +1,40 @@
+1.What Are Cookies?
+
+Cookies are small pieces of data stored on the user’s browser by websites.
+They help websites remember information about users — like login details, preferences, or shopping cart items.
+
+2.>>How to Avoid Cookies?
+ As a User:
+.Block cookies in browser settings
+→ Go to Settings → Privacy & Security → Cookies → choose
+.Block all cookies, or
+Block third-party cookies (recommended).
+.Use Incognito / Private Mode
+→ Temporary cookies only; deleted after you close the window.
+Clear cookies regularly
+→ Delete them manually from browser history.
+.Use privacy extensions
+→ Examples: uBlock Origin, Privacy Badger, Ghostery, Cookie AutoDelete.
+
+>> As a Developer
+1.Avoid Set-Cookie headers in the backend.
+2.Use token-based authentication (e.g., JWT) instead of cookies.
+3.Store authentication tokens in:
+.localStorage
+.sessionStorage
+.or application memory.
+
+3.What Happens If You Avoid Cookies?
+
+>>You’ll need to log in every time (no “remember me”).
+>>Shopping carts won’t save items between sessions.
+>>Site preferences (theme, language, etc.) reset every visit.
+>>No tracking or targeted ads — better privacy.
+>>Some websites may not work properly (especially those using session cookies).
+>>Slightly faster browsing due to fewer stored files.
+
+//Best Practice
+
+.Don’t block all cookies — block only third-party cookies for balance.
+.Use token-based login systems in your apps instead of cookies.
+.Clear cookies occasionally for better privacy and performance.

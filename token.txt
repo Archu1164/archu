@@ -1,0 +1,10 @@
+What is a Token-Based Application?
+
+A token-based application is one where the server issues a token (a unique string) to a user after they successfully log in.
+This token is then used in every future request to verify their identity — instead of sending username/password each time.
+
+Commonly used for:
+
+>Authentication in APIs
+>Secure communication between frontend & backend
+>Session management
