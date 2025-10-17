@@ -1,0 +1,77 @@
+1. JSON (JavaScript Object Notation)
+What it is:
+A lightweight data format used to exchange data between client and server.
+Very common in APIs, especially in FastAPI.
+Looks like:
+{
+  "name": "Archana",
+  "age": 22,
+  "skills": ["Python", "FastAPI"],
+  "is_student": true
+}
+
+>>Features:
+Uses key–value pairs.
+Syntax similar to Python dictionaries.
+Data types supported: string, number, boolean, array, object, null.
+Easy to parse and read by machines.
+
+>>Used in:
+.APIs (like FastAPI, Flask, Node.js)
+.Web applications
+Configuration files (like .json)
+
+2. XML (Extensible Markup Language)
+What it is:
+A markup language (like HTML) used to structure and describe data using tags.
+More verbose than JSON.
+
+>Looks like:
+<person>
+    <name>Archana</name>
+    <age>22</age>
+    <skills>
+        <skill>Python</skill>
+        <skill>FastAPI</skill>
+    </skills>
+    <is_student>true</is_student>
+</person>
+
+>> Features:
+Uses opening and closing tags (<tag>value</tag>).
+Human-readable, but longer than JSON.
+Common in older APIs, enterprise systems, and Android apps.
+
+>Used in:
+SOAP APIs
+Configuration files (like .xml in Android)
+Data storage and communication
+
+3. YAML (YAML Ain’t Markup Language)
+What it is:
+A human-friendly format for configuration files.
+Often used instead of JSON because it’s simpler to read.
+>>Looks like:
+name: Archana
+age: 22
+skills:
+  - Python
+  - FastAPI
+is_student: true
+
+>>Features:
+
+Uses indentation instead of brackets or tags.
+Very clean and readable.
+Supports comments (# like this).
+Sensitive to spaces (indentation matters).
+
+>Used in:
+Configuration files (like docker-compose.yml, kubernetes.yaml)
+DevOps tools (Ansible, Jenkins, Kubernetes)
+Modern applications needing clean config
+
+>>exampleuse:
+.FastAPI → uses JSON to send responses.
+.Android app → may use XML layouts.
+.Docker or Kubernetes → use YAML configs.

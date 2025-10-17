@@ -1,0 +1,35 @@
+1.What is a Firewall?
+
+A firewall is a security system that monitors and controls incoming and outgoing network traffic.
+It decides whether to allow or block specific traffic based on defined security rules.
+
+Think of it like a security guard checking every request before it reaches your FastAPI app.
+
+Types of Deployments in FastAPI (Simple)?
+1. Local Deployment
+Run on your own computer for testing.
+Command:
+uvicorn main:app --reload
+Used for: development and practice.
+
+2. Cloud Deployment
+Host your FastAPI app on cloud servers like:
+AWS, Google Cloud, Azure, Render, Railway
+Used for: making your app live on the internet.
+
+3. Docker (Container) Deployment
+Pack your FastAPI app inside a container (like a box).
+Easy to move and run anywhere.
+Used for: microservices and scaling easily.
+
+4. Serverless Deployment
+You don’t manage any servers.
+Just upload your FastAPI code, the platform runs it automatically.
+Used for: small APIs or quick apps (e.g., AWS Lambda, Vercel).
+
+5. On-Premise Deployment
+Run your FastAPI app on your own company’s servers.
+Used for: organizations that need full control and security.
+
+6. CI/CD (Automatic Deployment)
+Every time you update code, it auto-deploys to the server using tools like GitHub Actions or Jenkins.
