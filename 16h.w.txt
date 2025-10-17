@@ -1,0 +1,51 @@
+1.understand which is rol based?
+Definition:
+A role-based website is a website where user access and permissions are controlled according to the user’s role (such as admin, user, or guest).
+
+2.What is Microservices?
+
+Microservices is a way of building an application by dividing it into small, independent parts (services).
+Each service does one specific job and can work on its own.
+# Example:
+Think of an online shopping website — it can have:
+Product Service – manages products
+User Service – manages users
+Payment Service – handles payments
+Delivery Service – tracks orders
+Each one is a microservice, and all together make the full app.
+# Key Points:
+Each microservice runs independently
+They talk to each other using APIs
+Easy to update, test, and scale
+If one service fails, others still work
+
+3.What is Netflix Microservices?
+Netflix is one of the best examples of using microservices architecture.
+Earlier, Netflix had one big app (called a monolith) — it became hard to manage as users grew.
+So, they broke it into hundreds of microservices.
+
+#How Netflix Uses Microservices:
+Login Service – handles user authentication
+Recommendation Service – shows movies you might like
+Streaming Service – plays the video
+Billing Service – manages subscriptions
+Notification Service – sends emails or alerts
+All these services work together, but independently.
+
+# Netflix Built Tools for Microservices:
+Netflix even created special tools for handling its microservices:
+Eureka – Service discovery
+Zuul / API Gateway – Routes requests to the right service
+Hystrix – Handles failures safely
+Ribbon – Load balancing
+
+What are Variable Length Parameters in Python?
+Sometimes you don’t know how many values (arguments) will be passed to a function.
+So, Python lets you create functions that can take any number of arguments — these are called variable length parameters.
+
+#Two Types:
+*args → for multiple positional arguments
+**kwargs → for multiple keyword arguments
+
+Parameter	:The name used in the function definition (like num, *args, **kwargs)
+Argument	:The actual value passed when calling the function (like 5, 10)

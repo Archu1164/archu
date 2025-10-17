@@ -1,0 +1,106 @@
+1. Test Driven Development (TDD)?
+Meaning:
+TDD means writing tests before writing actual code.
+It’s a method to ensure code correctness from the start.
+
+>>Steps (called the “Red → Green → Refactor” cycle)
+.Write a test for a small function or feature (it fails at first).
+.Write code to make that test pass.
+.Run all tests — if they pass, you’re good.
+.Refactor the code (clean it up) without breaking tests.
+.Repeat for every new feature.
+
+>>Benefits:
+.Ensures fewer bugs
+.Code is cleaner and well-structured
+.Improves confidence when changing code
+.Acts as documentation for what code should do
+
+ 2. DevOps
+ Meaning:
+DevOps = Development + Operations
+It’s a culture and set of practices to bridge the gap between developers and system administrators.
+
+>Goal
+Automate the process from coding → testing → deployment → monitoring
+Deliver software faster, safer, and continuously
+
+Key DevOps Tools (Point-wise)
+1. Version Control Tools:
+Used to manage source code and track changes.
+
+Git,GitHub,GitLab,Bitbucket
+
+2. Continuous Integration / Continuous Deployment (CI/CD) Tools:
+Automate build, test, and deployment pipelines.
+Jenkins,GitLab CI/CD,CircleCI,Travis CI,Azure DevOps
+
+3. Configuration Management Tools
+Used to manage and automate server setup and configuration.
+Ansible,Chef,Puppet,SaltStack
+
+4. Containerization Tools:
+Package applications and dependencies together for consistent environments.
+Docker,Podman
+
+5. Container Orchestration Tools:
+Manage, scale, and deploy multiple containers.
+Kubernetes,Docker Swarm,OpenShift
+
+6. Cloud Platforms:
+Provide infrastructure and services for deployment and scaling.
+AWS (Amazon Web Services),Microsoft Azure,Google Cloud Platform (GCP),IBM Cloud
+
+7. Monitoring & Logging Tools:
+Track performance, errors, and server health.
+Prometheus,Grafana,Nagios,ELK Stack (Elasticsearch, Logstash, Kibana),Splunk
+
+8. Security & Compliance Tools:
+Ensure safe and secure DevOps practices.
+SonarQube (code quality)
+,Vault (secrets management),Aqua Security,Snyk
+
+9. Collaboration & Communication Tools:
+Improve coordination between Dev and Ops teams.
+Slack,Microsoft Teams,Jira,Confluence
+
+Summary:
+A DevOps pipeline generally includes:
+Git → Jenkins → Docker → Kubernetes → Prometheus → Grafana
+
+3. Unit Test Cases
+ Meaning:
+A unit test checks a small piece of code (function or class) to verify it works as expected.
+Example in Python
+def add(a, b):
+    return a + b
+
+def test_add():
+    assert add(2, 3) == 5
+
+>>You can run this using a testing framework like:
+.unittest
+.pytest
+
+>>Benefits
+.Detects bugs early
+.Helps maintain code quality
+.Makes refactoring safe (you know what breaks)
+
+4. Jenkins
+(You said “genkings” — it’s actually Jenkins) 
+ Meaning:
+Jenkins is an open-source automation server used for Continuous Integration (CI) and Continuous Deployment (CD).
+
+How It Works:
+1.Developer pushes code to GitHub.
+2.Jenkins automatically:
+.Pulls the new code
+.Runs tests
+.Builds the project
+.Deploys it to the server
+
+Features:
+.Automates repetitive tasks (build, test, deploy)
+.Supports many plugins (Git, Docker, etc.)
+.Core tool in DevOps pipelines

@@ -1,0 +1,27 @@
+what is api gateway?
+An API Gateway is a server that acts as a single entry point for all client requests to your backend services (like microservices, databases, or other APIs).
+
+Key Functions of API Gateway:
+
+1.Request Routing – Sends the request to the correct backend service.
+2.Authentication & Authorization – Verifies user tokens before allowing access.
+3.Load Balancing – Distributes traffic evenly across multiple servers.
+4.Rate Limiting – Prevents too many requests from overloading the system.
+5.Caching – Stores frequent responses to reduce backend load.
+6.Logging & Monitoring – Tracks API performance and errors.
+7.Request Transformation – Modifies requests or responses if needed (e.g., format conversion).
+
+>> Why API Gateways are Used
+
+.To simplify client interaction (one endpoint for all services)
+.To improve security (control access centrally)
+.To reduce complexity (clients don’t need to know internal structure)
+.To enable microservices communication efficiently
+
+>> Popular API Gateway Tools
+.Amazon API Gateway (AWS)
+.Kong
+.NGINX
+.Apigee (by Google)
+.Azure API Management
+.Traefik
