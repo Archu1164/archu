@@ -1,0 +1,19 @@
+2.what is cloud computing?
+Cloud computing means using the internet to store, manage, and process data instead of your personal computer.
+
+example:
+When you save photos on Google Drive or use Netflix, you’re using cloud computing — your files and data are stored and managed on remote servers, not your own device.
+
+LLM stands for Large Language Model.
+definition:
+It’s an artificial intelligence (AI) system that can understand and generate human-like text based on the input it receives.
+
+.L – Large → trained on a huge amount of data
+.L – Language → works with human language (text)
+.M – Model → mathematical system that learns patterns
+
+LLM can do:
+.Answer questions
+.Write essays, code, or summaries
+.Translate languages
+.Chat naturally with people

@@ -1,0 +1,19 @@
+>>AWS (Amazon Web Services):
+EC2 – Runs your web application on virtual servers.
+S3 – Stores static files like images, CSS, and HTML.
+RDS – Provides managed databases (MySQL, PostgreSQL, etc.).
+Lambda – Runs code without managing servers (serverless).
+Route 53 – Handles domain names and DNS routing.
+IAM – Manages user access and security.
+Elastic Load Balancer (ELB) – Balances traffic between servers.
+CloudWatch – Monitors performance and logs.
+
+>> GCP (Google Cloud Platform)
+Compute Engine – Virtual machines for running your backend.
+App Engine / Cloud Run – Deploys apps without server management.
+Cloud Storage – Stores static content and files.
+Cloud SQL / Firestore – Managed databases (SQL or NoSQL).
+Cloud DNS – Manages domain names and DNS.
+Cloud Load Balancing – Distributes traffic evenly.
+Cloud Monitoring & Logging – Tracks app performance and errors.
+
