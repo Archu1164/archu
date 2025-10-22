@@ -1,0 +1,42 @@
+What is microservice?
+
+A microservice is a small, self-contained service that runs independently and focuses on a specific business function (like user login, payments, or notifications).
+All microservices together make up the whole application.
+
+6.what is vibe coding?
+1.it means creating apps using natural language instead of writing full code.
+2.the AI understands your idea and automatically generates the code.
+3.it helps to build quickly with less technical work.
+4.best for prototyping or small apps, not for complex systems.
+
+7.DIFFERENCE BETWEEN CHATGPT,PERPLEXITY,GEMINI,GROK,DEEPSEEK?
+
+1. ChatGPT (by OpenAI)
+.Developed by OpenAI.
+.Focuses on conversation, coding help, writing, and reasoning.
+.Uses GPT-4 / GPT-5 models.
+.Known for accuracy, creativity, and wide integration (e.g., in Microsoft tools).
+
+2. Perplexity AI
+.Focuses on search + chat.
+.Gives answers with web sources (real-time internet info).
+.Works like a mix of Google + ChatGPT.
+.Great for research and fact-checking.
+
+3. Gemini (by Google)
+.Developed by Google DeepMind.
+.Connected with Google Search, YouTube, and Drive.
+.Good at reasoning, math, and image understanding.
+.Integrated with Google products (Gmail, Docs, etc.).
+
+4. Grok (by xAI / Elon Musk)
+.Created by Elon Musk’s company (xAI).
+.Built into X (Twitter) platform.
+.Gives real-time answers from X posts.
+.Has a funny, sarcastic tone and focuses on trending info.
+
+5. DeepSeek
+.Developed by a Chinese AI company.
+.Focused on high performance and low cost AI models.
+.Gaining popularity for fast reasoning and coding.
+.Competes with OpenAI and Google globally.
