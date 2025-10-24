@@ -1,0 +1,8 @@
+RAM vs ROM (Simple Table):
+
+Feature:	RAM (Random Access Memory)	       :ROM (Read-Only Memory)
+Type   :        Volatile (loses data when power off)   :Non-volatile (retains data)
+Purpose:	Temporary storage for running programs :Permanent storage for firmware
+Writable:	Yes (read and write)	               :Mostly read-only
+Speed	:       Fast	                               :Slower than RAM
+Example	:       Running apps, OS processes	       :BIOS, firmware

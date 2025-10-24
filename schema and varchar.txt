@@ -1,0 +1,43 @@
+In SQL, a schema is like a container or folder that holds database objects.
+
+Simple Definition:
+A schema is a logical structure that groups together related database objects such as:
+.Tables
+.Views
+.Stored Procedures
+.Functions
+.Indexes
+
+EXAMPLES:
+CREATE SCHEMA sales;
+
+CREATE TABLE sales.customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+
+difference between VAR and VARCHAR?
+1. CHAR
+Fixed-length string data type.
+Always uses the same amount of space, even if the text is shorter.
+
+ Example:
+CHAR(10)
+If you store 'cat', it still takes 10 characters (adds 7 spaces).
+
+ 2. VARCHAR
+Variable-length string data type.
+Uses only the required space for the actual text.
+More efficient for varying-length data.
+
+Example:
+VARCHAR(10)
+If you store 'cat', it takes only 3 characters.
+
+3. VAR
+VAR is not a data type in SQL by itself.
+It’s just a prefix used in VARCHAR (meaning “variable-length character”).
+Some people mistakenly write VAR, but the correct type is VARCHAR.
+
+

@@ -1,0 +1,19 @@
+1.SQL (Structured Query Language) Databases:
+.SQL databases are relational — data is stored in tables (rows and columns).
+.They have a fixed schema, meaning structure must be defined before inserting data.
+.Use SQL language for querying and managing data.
+.Follow ACID properties (Atomicity, Consistency, Isolation, Durability) for reliable transactions.
+.Best suited for structured data and applications requiring strong relationships.
+.Usually vertically scalable (by increasing hardware capacity of one server).
+
+Examples: MySQL, PostgreSQL, Oracle, SQL Server.
+
+2.QL (Not Only SQL) Databases:
+.NoSQL databases are non-relational — data can be stored as documents, key-value pairs, graphs, or columns.
+.They have a flexible or dynamic schema, allowing unstructured or semi-structured data.
+.Do not use a standard query language (each database has its own query style).
+.Follow BASE properties (Basically Available, Soft state, Eventually consistent).
+.Best suited for large-scale, real-time, or unstructured data.
+.Usually horizontally scalable (by adding more servers).
+
+Examples: MongoDB, Cassandra, Redis, Firebase, CouchDB.
