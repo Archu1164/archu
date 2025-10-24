@@ -1,0 +1,52 @@
+1.what is Application server in cloud?
+It's a server that runs and manages your app's backend(like api or logic)on the cloud.
+
+EXAMPLES:AWS Elastic Beantalk,Google App Engine.
+USE:
+Handles request ,conects to databases ,and scales automatically
+
+
+2.Space Complexity (Simple):
+It is the amount of memory an algorithm uses while running.
+
+Includes:
+.Memory for variables
+.Data structures
+.Function calls
+
+3.why 1024only not 1025?
+Reason:
+Computers work in binary (base-2), not decimal (base-10).
+In binary, memory sizes are powers of 2.
+
+So,
+2¹⁰ = 1024
+That’s why:
+1 Kilobyte (KB) = 1024 bytes
+1 Megabyte (MB) = 1024 KB
+ .Not 1025, because 1024 is exactly a power of 2 — it fits perfectly in how computers
+ count and store data in binary form (1s and 0s).
+
+4.What is automation?
+Automation:
+Automation means using tools or scripts to perform tasks automatically instead of doing them manually — especially for testing software or web applications.
+
+5.What is frame used to test the web application? 
+.Framework Used to Test Web Applications:
+.Common automation testing frameworks for web apps are:
+.Selenium – Most popular for browser-based testing
+.Cypress – Fast and modern for web UI testing
+.Playwright – Newer tool by Microsoft, supports multiple browsers
+.TestNG / JUnit – For structuring and running test cases (Java-based)
+.Robot Framework – Keyword-driven and easy to use
+
+6.BIOS?
+
+BIOS stands for Basic Input/Output System.
+It is a firmware (built-in software) stored on the motherboard of your computer.
+
+::Main Functions:
+.Starts the computer when you turn it on (boot process).
+.Checks hardware like RAM, keyboard, and hard drive (POST – Power-On Self Test).
+.Loads the operating system from storage into memory.
+.Provides settings to configure hardware (like boot order, time, etc.).

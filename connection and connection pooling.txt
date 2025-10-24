@@ -1,0 +1,22 @@
+What is a Connection in Databases?
+
+A connection is a link between your application and the database.
+It allows your program to send SQL queries and receive results.
+
+It is used to:
+.Execute SQL commands (SELECT, INSERT, UPDATE, etc.)
+.Retrieve results
+.Maintain communication with the database
+
+
+What is Connection Pooling?
+Connection pooling is a technique to reuse database connections instead of creating new ones each time.
+
+ Why it’s needed:
+.Creating a new connection for every request is slow and expensive.
+.Connection pooling keeps a set (pool) of open connections ready to use.
+
+When an app needs to talk to the DB:
+.It borrows a connection from the pool.
+.When done, it returns the connection to the pool.
+.The same connection can be reused by other requests.

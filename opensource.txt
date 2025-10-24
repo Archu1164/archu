@@ -1,0 +1,89 @@
+What is Open Source?
+Open source means the source code of a software is public — anyone can:
+.See how it works:
+.Use it for free
+.Modify it
+.Share their changes
+
+Example:
+Python, Linux, VS Code, FastAPI, and Firefox are open-source projects.
+You can go to GitHub, open their code, and even improve it.
+
+Opposite of Open Source
+
+Closed Source (or proprietary software) — code is private.
+Example: Microsoft Office, Netflix, Windows.
+
+1. Understand What Open Source Means
+
+Open source means the source code is public — anyone can view, modify, and improve it.
+
+Examples:
+Linux,Python,Django,VS Code,FastAPI
+
+2. Find a Project to Contribute To
+You can find open source projects on:
+
+GitHub,GitLab,Open Source Friday,Good First Issue
+
+
+Tip: Choose projects that use languages or frameworks you already know (e.g., Python, FastAPI, Django).
+
+3. Understand the Project
+Before you contribute:
+.Read the README.md (what the project does)
+.Check CONTRIBUTING.md (how to contribute)
+.Look at issues and pull requests (PRs)
+.Understand the code structure
+
+4. Set Up the Project Locally
+
+Typical steps:
+
+# Step 1: Fork the repository (copy to your GitHub)
+# Step 2: Clone it to your system
+git clone https://github.com/your-username/project-name.git
+
+# Step 3: Go inside the project folder
+cd project-name
+
+# Step 4: Install dependencies (example for Python)
+pip install -r requirements.txt
+
+# Step 5: Run and test
+python main.py
+
+5. Pick an Issue
+
+Look for issues labeled:
+good first issue
+beginner-friendly
+help wanted
+
+Then comment something like:
+"Hi, I’d like to work on this issue. Can I take it?"
+
+6. Make Your Changes
+Create a new branch for your feature:
+git checkout -b fix-typo-in-readme
+
+
+Make your edits → test → commit:
+
+git add .
+git commit -m "Fixed typo in README"
+
+7. Push and Create a Pull Request
+git push origin fix-typo-in-readme
+Then go to GitHub → open your repo → click “Compare & pull request”.
+
+Add:
+A short title
+
+A clear description of what you changed
+
+8. Wait for Review
+Project maintainers will:
+Review your code
+Ask for changes (if needed)
+Merge your contribution 

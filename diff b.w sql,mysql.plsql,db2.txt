@@ -1,0 +1,54 @@
+what is the difference between sql,mysql,plsql,db2 ?
+
+1. SQL (Structured Query Language)
+SQL is a standard language used to manage and manipulate databases.
+It is not a database, but a language used by most database systems.
+Used for tasks like creating tables, inserting, updating, deleting, and querying data.
+Works on relational databases.
+Commands are divided into categories like DDL, DML, DCL, and TCL.
+
+Example commands:
+
+SELECT * FROM employees;
+INSERT INTO students VALUES (1, 'Archana');
+
+ 2. MySQL
+MySQL is a Relational Database Management System (RDBMS).
+It uses SQL language to interact with the database.
+Developed by Oracle Corporation (open-source version also available).
+Commonly used for web applications (like WordPress, PHP, Python apps).
+Supports client–server architecture.
+Fast, reliable, and widely used in modern web development.
+
+Example:
+
+CREATE DATABASE school;
+USE school;
+CREATE TABLE students (id INT, name VARCHAR(50));
+
+3. PL/SQL (Procedural Language / SQL)
+PL/SQL is Oracle’s procedural extension of SQL.
+Adds programming features like loops, conditions, variables, and functions to SQL.
+Used for writing stored procedures, triggers, and functions inside Oracle databases.
+Helps perform complex business logic within the database itself.
+
+Example:
+
+DECLARE
+  total NUMBER := 0;
+BEGIN
+  SELECT COUNT(*) INTO total FROM employees;
+  DBMS_OUTPUT.PUT_LINE('Total Employees: ' || total);
+END;
+
+4. DB2
+DB2 is an RDBMS developed by IBM.
+Supports both SQL and NoSQL features in modern versions.
+Mainly used in enterprise systems and large organizations (like banking).
+Works on multiple platforms — Windows, Linux, UNIX, and IBM mainframes.
+Offers high performance, security, and reliability.
+
+Example (SQL command works the same way):
+
+SELECT * FROM customers;
+
