@@ -1,0 +1,48 @@
+1. Relational Databases (RDBMS)
+Stores data in tables (rows and columns) with relationships between them.
+Uses SQL (Structured Query Language).
+Examples: MySQL, PostgreSQL, Oracle, SQL Server.
+Best for: Structured data with clear relationships (like employee, student records).
+>Example:
+Students(id, name, age, grade)
+Courses(id, course_name, student_id)
+
+2. NoSQL Databases
+Used for unstructured or semi-structured data (like documents, JSON, or graphs).
+Does not use SQL strictly.
+Very scalable and flexible.
+
+3. Object-Oriented Databases
+Data stored as objects (like in object-oriented programming).
+Supports inheritance, encapsulation, etc.
+>Examples: db4o, ObjectDB.
+Best for: Applications built using object-oriented languages like Java or C++.
+
+4. Distributed Databases
+Data is stored across multiple physical locations or servers.
+Increases availability and speed.
+Examples: Google Spanner, Amazon Aurora, Cassandra.
+
+5. Cloud Databases
+Hosted and managed on cloud platforms.
+Scalable and accessible from anywhere.
+Examples: Amazon RDS, Google Cloud SQL, Azure SQL Database.
+
+6. Hierarchical Databases
+Data stored in a tree-like structure (parent-child relationship).
+Example: IBM Information Management System (IMS).
+Best for: Applications with one-to-many data relationships.
+
+7. Network Databases
+Similar to hierarchical but allows many-to-many relationships.
+Uses network structure with nodes and links.
+Example: Integrated Data Store (IDS).
+
+8. Time-Series Databases
+Optimized for storing time-stamped data (like sensor readings or stock prices).
+Examples: InfluxDB, TimescaleDB.
+
+9. Graph Databases
+Focuses on relationships between entities (nodes and edges).
+Examples: Neo4j, Amazon Neptune.
+Used in: Social networks, recommendation systems.

@@ -1,0 +1,15 @@
+SQL, both uppercase and lowercase are correct — SQL doesn’t care about case.
+So these two mean exactly the same thing:
+
+CREATE DATABASE mydb;
+create database mydb;
+
+
+Both are valid.
+Keywords → use UPPERCASE (CREATE DATABASE)
+
+Names (database, table, column) → use lowercase (mydb, students, name)
+
+Recommended style:
+CREATE DATABASE mydb;
+This looks cleaner and is easier to read.
