@@ -1,0 +1,38 @@
+1.DIFFERENCE BETWEEN JSON,XML,AND YAML
+
+Feature	                JSON	          XML	                          YAML
+Readability	        Medium	         Low (too many tags)	          High
+File Size	        Small	         Large           	          Small
+Supports Comments	❌	         ✅	                          ✅
+Data Types	        Basic	         Complex	                  Flexible
+Used In   	        APIs, web apps	 SOAP, enterprise systems	 Config files, DevOps
+Syntax Style	        {} and []	         <tags>           	Indentation
+
+
+JSON → For web APIs
+XML → For enterprise / legacy systems
+YAML → For configuration files
+
+2.WHAT IS YAML?
+YAML (YAML Ain’t Markup Language)
+Format: Indentation-based, human-friendly
+Extension: .yaml or .yml
+Main use: Configuration files (Docker, Kubernetes, GitHub Actions, etc.)
+Example:
+
+name: Archana
+age: 22
+skills:
+  - Python
+  - SQL
+  - HTML
+
+
+>>Advantages:
+Very easy for humans to read
+Supports comments (#)
+Common in DevOps tools
+
+>>Disadvantages:
+Indentation errors can break it easily
+Parsing can be slower or error-prone
