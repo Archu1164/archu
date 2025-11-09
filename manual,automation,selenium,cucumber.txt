@@ -1,0 +1,62 @@
+1. Manual Testing
+Definition: Testing software manually, without using any automation tools.
+The tester executes test cases step by step to find bugs or issues.
+It checks functionality, user interface, and user experience.
+
+Example:
+A tester opens a login page, enters username and password, clicks “Login”, and checks if the dashboard opens correctly.
+
+Advantages:
+Good for small projects.
+Finds visual and usability issues easily.
+
+Disadvantages:
+Time-consuming.
+Human errors possible.
+Not suitable for repetitive tasks.
+
+2. Automation Testing
+Definition: Testing done using automation tools or scripts instead of manual effort.
+Test cases are written in code and executed automatically.
+Saves time for regression and performance testing.
+
+Example:
+A script automatically opens a browser, enters login details, clicks the button, and checks if the page loads successfully.
+
+Advantages:
+Faster and more accurate.
+Reusable test scripts.
+Best for large projects.
+
+Disadvantages:
+Requires programming knowledge.
+Initial setup cost is high.
+
+3. Selenium
+
+Definition: Selenium is a popular open-source tool used for automation testing of web applications.
+It simulates user actions like clicking, typing, and navigating pages in a browser.
+Supports multiple browsers — Chrome, Firefox, Edge.
+Supports many languages — Python, Java, C#, JavaScript, etc.
+
+Components of Selenium:
+Selenium IDE → Record & playback tool.
+Selenium WebDriver → Automates browsers using code.
+Selenium Grid → Runs tests on multiple machines/browsers at the same time.
+
+4. Cucumber
+Definition: Cucumber is a testing tool that supports Behavior Driven Development (BDD).
+It helps to write test cases in simple English sentences (called Gherkin language) so both developers and non-technical people can understand them.
+Works with Selenium for automation.
+
+Example (Cucumber Gherkin):
+Feature: Login Functionality
+
+  Scenario: Successful login
+    Given user is on login page
+    When user enters valid username and password
+    Then user should be redirected to the homepage
+
+Key Points:
+Cucumber focuses on "what the system should do", not "how it does it".
+Integrates with Selenium for actual browser automation.

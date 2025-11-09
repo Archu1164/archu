@@ -1,0 +1,45 @@
+what is responsive design?
+
+Responsive design is a web design approach that ensures a website looks good and works properly on all devices.
+whether it's a desktop,laptop,tablet,or mobile phone.
+
+WHAT ARE OTHER ARCHITECTURES THAN REST API'S?
+ 
+REST API (Representational State Transfer) is the most popular architecture style for web services — but it’s not the only one.
+Here are the other major API architectures (or styles) besides REST 👇
+
+1. SOAP (Simple Object Access Protocol)
+An older, XML-based protocol.
+Very strict and formal — used in enterprise systems (like banking, telecom, etc.).
+Uses WSDL (Web Services Description Language) for describing APIs.
+Communicates via HTTP, SMTP, etc.
+
+
+2. GraphQL
+Developed by Facebook.
+Client can ask exactly for the data it needs, nothing more or less.
+Uses a single endpoint (unlike REST which has many).
+Returns JSON data.
+
+3. gRPC (Google Remote Procedure Call)
+Developed by Google.
+Uses Protocol Buffers (protobuf) instead of JSON or XML → very fast and compact.
+Great for microservices communication.
+Uses HTTP/2 (supports streaming and multiplexing).
+.High performance
+.Type-safe
+.Harder to debug manually (binary data)
+
+4. WebSockets
+Used for real-time, two-way communication (like chat apps, games, or live notifications).
+Unlike REST (request → response), both client and server can send messages anytime.
+
+5. GraphQL Subscriptions / Server-Sent Events (SSE)
+Both are used for real-time updates from the server.
+SSE = server pushes updates automatically using HTTP.
+GraphQL subscriptions are GraphQL’s version of real-time updates.
+
+6. OData (Open Data Protocol)
+Created by Microsoft.
+REST-like, but adds querying features directly in URLs.
+
