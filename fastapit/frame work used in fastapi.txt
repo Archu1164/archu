@@ -1,0 +1,8 @@
+Frameworks used in FastAPI:
+1.Starlette – Handles web parts (routing, requests, responses).
+2.Pydantic – Validates and converts data.
+3.Uvicorn – Runs the FastAPI app (ASGI server).
+4.Optional:
+SQLAlchemy / Tortoise ORM → for databases
+Jinja2 → for HTML templates
+
