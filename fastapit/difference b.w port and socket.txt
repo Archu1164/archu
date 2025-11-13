@@ -1,0 +1,26 @@
+1.Difference between port and socket?
+Port:
+.A port is a logical number that identifies a specific process or service on a device.
+.Think of it like a door number in a building — it tells where the data should go.
+.Ports range from 0 to 65535.
+
+Example:
+
+.Port 80 → HTTP (web traffic)
+.Port 443 → HTTPS (secure web traffic)
+.Port 25 → SMTP (email)
+
+Socket:
+A socket is the combination of an IP address and a port number.
+It uniquely identifies a connection between two devices over a network.
+
+Example:
+
+192.168.1.10:8080
+Here,
+
+192.168.1.10 → IP address
+
+8080 → Port number
+
+Together → Socket
