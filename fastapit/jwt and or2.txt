@@ -23,39 +23,4 @@ That token proves you are logged in.
 When you try to access a protected page (like your profile), your browser sends that JWT back to the server.
 The server checks it — if it’s valid, you’re allowed in.
 
-3#.what is Hybernatw,Encrition,Decription and Cryptography?
-
-1. Hibernate::
-Hibernate means to save the current state and pause so you can continue later from the same point.
-
-Example:
-When you hibernate your laptop, all your open files and apps are saved on the hard disk.
-Next time you turn it on, everything reopens exactly where you left it.
-..Like pausing a movie and resuming later.
-
-2. Encryption::
-Encryption means changing readable information (plain text) into a secret code (cipher text) so that only authorized people can read it.
-
-Example:
-Plain text: HELLO
-Encrypted (using a simple shift): KHOOR
-— Only someone with the key knows how to turn KHOOR back into HELLO.
-..Like locking a message in a box so only someone with the key can open it.
-
-3. Decryption:
-Decryption means converting the secret code (cipher text) back into readable text (plain text) using a key.
-
-Example:
-Cipher text: KHOOR
-Decrypted (using the key): HELLO
-..Like unlocking the box to read the original message.
-
-4. Cryptography::
-Cryptography is the science of protecting information by using encryption and decryption.
-It keeps data safe, private, and unchanged.
-
-Example:
-When you send a message on WhatsApp, it uses cryptography so that only you and 
-the receiver can read it — not even WhatsApp itself.
-..Like sending a secret message that only your friend can open and read.
 
