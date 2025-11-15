@@ -1,0 +1,39 @@
+Testing Frameworks in Python?
+1️.unittest
+
+Built-in Python testing framework
+Uses a class-based structure
+Supports test discovery, setup/teardown, and assertions
+Good for beginners and standard library-level testing
+
+2️.pytest
+
+Most popular and widely used framework
+Very simple syntax and powerful features
+Supports fixtures, plugins, parameterized tests
+Best choice for modern and large projects
+
+3️.nose2
+
+Successor to the now-deprecated Nose framework
+Extends unittest with additional features
+Supports plugins and test discovery
+Mostly used in older or existing projects
+
+4️.behave
+
+BDD (Behavior-Driven Development) framework
+Uses natural-language test cases (Given/When/Then)
+Suitable for testing user stories and business logic
+
+5️.robot framework
+
+Keyword-driven testing framework
+Used for automation testing (UI tests, API tests, RPA)
+Easy for non-programmers due to simple syntax
+
+6️.doctest
+
+Runs tests based on examples in docstrings
+Verifies that code examples in documentation work correctly
+Useful for small utilities and documentation testing
