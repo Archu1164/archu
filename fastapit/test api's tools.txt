@@ -1,0 +1,7 @@
+HOW DO YOU TEST API's?
+
+Using tools like:
+.Postman – manual testing (most popular)
+.cURL – command-line testing
+.Swagger / API docs – test directly from documentation
+.Automation frameworks – e.g. pytest, unittest, or requests library in Python

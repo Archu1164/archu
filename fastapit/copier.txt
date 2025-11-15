@@ -1,0 +1,9 @@
+2. Copier (Person or Thing That Copies)
+
+.A copier can also mean:
+.A person who copies someone else’s work
+.A software/tool that duplicates data or files
+
+Example:
+
+“This script is a copier that copies files to another folder.”
