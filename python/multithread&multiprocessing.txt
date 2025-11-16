@@ -1,0 +1,9 @@
+Multithreading: This involves a single process running multiple threads concurrently,
+ all sharing the same memory space.
+ In Python (CPython), it's best for I/O-bound tasks (like network requests or file access) 
+because the Global Interpreter Lock (GIL) prevents true parallel execution of CPU-bound code.
+
+Multiprocessing: This involves running multiple independent processes,
+ each with its own dedicated memory space and Python interpreter. 
+This allows for true parallel execution on multiple CPU cores, 
+making it ideal for CPU-bound tasks (like heavy calculations).
