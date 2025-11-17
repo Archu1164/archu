@@ -1,0 +1,29 @@
+What is POST API?
+
+A POST API is an API that uses the POST method to send data to a server.
+When you send data using POST, the server usually creates something new 
+with that data.
+POST = Send data → Create new item.
+
+Where is POST API used?
+POST API is used in everyday situations like:
+
+1. User Signup
+When you create an account (name, email, password) → data goes to server using POST.
+
+2. Login
+Your email + password are sent to the server using POST (because it’s safer).
+
+3. Uploading Files
+Photos, videos, PDFs → upload through POST.
+
+4. Adding Data
+Add a new product
+Add a new student
+Add a new order
+All use POST.
+
+5. Submitting FormsWhat is typing.Optional?
+
+typing.Optional is a Python type hint that tells the variable can either have a value of a specific type OR can be None.
+Any “Submit” button in websites usually sends data using POST.
