@@ -1,0 +1,17 @@
+WHAT IS BOILER PLATE CODE?
+Boilerplate code is the common, repeated code that appears in many programs or 
+files, usually to set up the environment or basic structure.
+1. Python Boilerplate Code
+if __name__ == "__main__":
+    main()
+
+
+This pattern ensures some code runs only when the file is executed,
+not when imported.
+Why Boilerplate Code Exists?
+
+Because:
+.It provides a standard structure
+.It ensures compatibility
+.It reduces repetitive writing
+.It makes projects consistent
