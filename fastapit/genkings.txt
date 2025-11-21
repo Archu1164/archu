@@ -1,0 +1,19 @@
+1.What is Jenkins?
+
+Jenkins is an automation server used for:
+Continuous Integration (CI)
+Continuous Delivery (CD)
+Automating build, test, and deployment pipelines
+It helps developers automatically build and test code whenever they make changes.
+
+2.What is a Build Server in Jenkins?
+
+A build server (also called a Jenkins server/agent) is the system where Jenkins:
+Builds your project
+Runs tests
+Deploys code
+Executes CI/CD pipelines
+
+Jenkins uses:
+Master (Controller) → manages jobs
+Agents (Nodes) → perform the actual build & test tasks

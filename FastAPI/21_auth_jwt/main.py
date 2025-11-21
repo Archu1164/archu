@@ -15,7 +15,7 @@ fake_users_db = {
 
 class Token(BaseModel):
     access_token: str
-    token_type: str
+    token_type: strcode
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 

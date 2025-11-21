@@ -1,0 +1,27 @@
+Recursion
+Definition: Recursion is a programming technique where a function calls 
+directly or indirectly to solve a problem. It works by breaking down 
+a complex problem into smaller, similar sub-problems until a base 
+case is reached, which provides a direct solution.
+
+Decorator
+Definition: A decorator in Python is a design pattern that allows you to 
+add new functionality to an existing function or class without modifying 
+its structure. It essentially "wraps" another function, taking it as an 
+argument and returning a new function that usually extends or modifies 
+the original's behavior.
+
+Generator
+Definition: A generator in Python is a special type of function 
+that generates values on the fly using the yield keyword, rather
+ than returning a single value. It creates an iterator that can 
+be paused and resumed, saving memory by producing values one at 
+a time only when requested, making it ideal for large datasets.
+
+Iterator
+Definition: An iterator is an object that represents a stream of 
+data and allows you to traverse through elements one by one. 
+It implements two methods: __iter__ 
+(which returns the iterator object itself) and __next__ 
+(which returns the next item in the sequence, 
+raising StopIteration when no more items are left)

@@ -1,4 +1,4 @@
-3#.what is Hybernatw,Encrition,Decription and Cryptography?
+3#.what is Hybernatw,Encrytion,Decryption and Cryptography?
 
 1. Hibernate::
 Hibernate means to save the current state and pause so you can continue later from the same point.

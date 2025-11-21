@@ -1,0 +1,10 @@
+What is typing.Optional?
+
+typing.Optional is a Python type hint that tells the
+ variable can either have a value of a specific type OR can be None.
+
+
+What is Pool Size?
+
+Pool size means the number of workers (threads, processes, or connections) 
+that can run at the same time in a pool.
