@@ -21,7 +21,7 @@ def create_item(item: dict):
 def update_item(item_id: int, item: dict):
     if item_id not in items:
         # If not present, add as new
-        items[item_id] = item
+        items[item_id] = item                                                                                                                                                                                       
         return {"added": {"item_id": item_id, "item": item}}
     items[item_id] = item
     return {"updated": {"item_id": item_id, "item": item}}
@@ -33,6 +33,4 @@ def delete_item(item_id: int):
         return {"deleted": item_id}
     raise HTTPException(status_code=404, detail="Item not found")
 
-@app.get("/docs")
-def get_docs():
-    return {"docs_url": "http://127.0.0.1:8000/docs"}
+                                                  

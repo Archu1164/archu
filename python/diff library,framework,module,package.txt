@@ -1,0 +1,42 @@
+DIFF B/W LIBRARY,FRAMEWORK,MODULE,PACKAGE??
+
+1. Module
+.A single Python file (.py file).
+.Contains functions, classes, or variables.
+.Smallest unit.
+
+Example:
+math.py, random.py, your own file utils.py.
+
+2. Package
+.A collection of modules stored together in a folder.
+.Has an __init__.py file.
+
+Example:
+numpy (contains many modules)
+pandas
+sklearn
+
+3. Library
+.A collection of packages and modules that provide specific functionality.
+.You use it when you need certain features — you control the flow.
+
+Example:
+Pandas → data analysis library
+NumPy → numerical computation library
+Requests → HTTP library
+Important: You call the library; the library doesn’t control you.
+
+4. Framework
+A large structure that provides rules and architecture for building applications.
+Framework controls the flow — you follow its pattern.
+More powerful than a library.
+
+Example:
+Django → web framework
+FastAPI → web framework
+Flask → micro-framework
+
+Difference:
+Library → you call functions
+Framework → it calls your code (Inversion of Control)

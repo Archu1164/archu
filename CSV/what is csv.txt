@@ -1,0 +1,22 @@
+CSV (Comma Separated Values)
+
+CSV is a file format used to store data in table form (rows & columns) where values are separated by commas.
+
+Example
+
+A CSV file looks like this:
+name,age,city
+Archana,22,Hyderabad
+Ravi,25,Bangalore
+Sita,20,Chennai
+
+.Each line = one row
+.Each comma = separates columns
+
+Why CSV is used?
+
+.Very simple
+.Easy to read
+.Works in all systems
+.Used in Python, Excel, SQL, etc.
+.Perfect for data analysis & EDA

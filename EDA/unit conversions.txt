@@ -1,0 +1,24 @@
+Unit Conversions:
+1. Length
+.1 meter = 100 cm
+.1 km = 1000 m
+.1 inch = 2.54 cm
+
+2. Weight
+.1 kg = 1000 g
+.1 gram = 1000 mg
+
+3. Time
+.1 hour = 60 minutes
+.1 minute = 60 seconds
+
+4. Temperature
+.Celsius → Fahrenheit
+f=(𝐶×9/5)+32
+
+.Fahrenheit → Celsius
+𝐶=(𝐹−32)×5/9
+
+5. Volume
+.1 liter = 1000 ml
+.1 ml = 0.001 L
