@@ -1,0 +1,31 @@
+WHAT IS EDA?
+
+EDA means Exploratory Data Analysis.
+Simple Explanation:
+
+EDA is the first step in data analysis where you try to understand your data before building any model.
+
+Why EDA is important?
+.To understand what your data contains
+.To find mistakes or missing values
+.To find patterns
+.To decide which features are important
+.To choose the right model later
+
+What do we do in EDA?
+
+1.View data (head, tail, shape)
+2.Check missing values
+3.Check data types
+4.Summary statistics (mean, median, std…)
+5.Visualizations like
+
+.Bar chart
+.Histogram
+.Box plot
+.Scatter plot
+
+6.Find correlations between columns
+
+In One Line
+EDA = Understanding your data using statistics and visualizations before machine learning.
