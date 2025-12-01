@@ -1,0 +1,15 @@
+Common EDA Steps?
+
+1.Load the dataset
+2.See top/bottom rows (head(), tail())
+3.Check structure (info())
+4.Summary statistics (describe())
+5.Check missing values
+6.Check duplicates
+7.Data types
+8.Visualization
+.Histogram
+.Bar chart
+.Box plot
+.Scatter plot
+9.Correlation between features

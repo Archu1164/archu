@@ -1,0 +1,34 @@
+WHAT IS Pandas::
+
+1.Pandas is a data analysis library in Python.
+2.It works mainly with DataFrames (tables with rows & columns).
+3.Used to load, clean, filter, and analyze data.
+4.Supports reading data from CSV, Excel, SQL, JSON.
+5.Provides useful functions like:
+.head()
+.info()
+.describe()
+.isnull()
+
+6.Handles missing values, duplicates, and data types.
+7.Very useful for EDA (Exploratory Data Analysis).
+8.Built on top of NumPy.
+
+WHAT IS NumPy:: 
+
+1.NumPy is a numerical computing library in Python.
+2.Uses ndarray (N-dimensional array) for fast calculations.
+3.Much faster than Python lists.
+4.Used for math operations, matrix calculations, and scientific computing.
+5.Foundation for many libraries like Pandas, SciPy, Scikit-learn.
+6.Supports operations like:
+.np.array()
+.np.mean()
+.np.sum()
+.np.dot()
+
+7.Very important in machine learning, data science, and AI.
+
+
+Pandas = data analysis
+NumPy = numerical calculations

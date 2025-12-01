@@ -1,0 +1,27 @@
+EDA Charts?
+1️.Histogram
+
+Shows distribution of a single numeric column
+Tells how values are spread
+Used for: age, salary, marks
+
+2️.Bar Chart
+Compares categories
+Used for: city count, gender count
+
+3.Box Plot
+Shows outliers
+Shows minimum, maximum, median
+Used for: salary range, marks variation
+
+4️.Scatter Plot
+Shows relationship between two numeric columns
+Used for: age vs salary, height vs weight
+
+5️.Heatmap
+Shows correlation between columns
+Used to check: which features are related
+
+6️.Pie Chart
+Shows percentage of categories
+Used for: male/female ratio

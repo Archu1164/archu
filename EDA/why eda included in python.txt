@@ -1,0 +1,8 @@
+Why EDA is done using Python?
+
+1.Python has powerful libraries (Pandas, NumPy, Matplotlib, Seaborn).
+2.Python is very easy to learn and write.
+3.Python handles large datasets smoothly.
+4.EDA + Machine Learning both use Python, so it's convenient.
+5.Huge community support and many resources.
+6.Python is popular in data science, so industry prefers it.

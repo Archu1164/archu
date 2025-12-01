@@ -1,0 +1,61 @@
+1.What is FastAPI? 
+
+FastAPI is a Python framework used to create APIs very quickly and easily.
+
+⭐ Why is FastAPI popular? 
+1.It is very fast
+2️.Easy to use
+3️.Automatically creates documentation
+4️.Validates your input automatically
+5️.Uses modern Python features
+
+2.Difference Between FastAPI and Flask (Point-by-Point)
+FastAPI:
+.Built for speed using ASGI.
+.Supports asynchronous code (async/await) by default.
+.Automatic data validation using Pydantic.
+.Auto documentation (Swagger & ReDoc generated automatically).
+.Better performance for high-load APIs.
+.Uses Python type hints heavily.
+.Great for modern REST APIs and microservices.
+.More secure due to built-in OAuth2 and security utilities.
+.Less boilerplate code.
+.Young framework but growing fast.
+
+Flask:
+.Uses WSGI, not designed for async by default.
+.Simpler and lightweight, but manual work needed for validation.
+.No built-in auto documentation.
+.Best suited for small to medium apps.
+.Avoided for high-performance or real-time systems.
+.Flexible — you add extensions as needed.
+.Very stable and older with huge community support.
+.More suitable for beginners to learn web basics.
+.Does not enforce type hints.
+.Requires third-party libraries for big projects (Auth, DB, etc.)
+
+3.what is ASGI and WSGI?
+WSGI (Web Server Gateway Interface):
+
+.Synchronous (handles one request at a time).
+.For traditional web apps (not real-time).
+.Does NOT support WebSockets.
+.Used by Flask, Django (older versions).
+
+⭐ ASGI (Asynchronous Server Gateway Interface):
+
+.Asynchronous + Synchronous (handles many requests at once).
+.Supports real-time features like WebSockets.
+.Designed for high performance and concurrency.
+.Used by FastAPI, Starlette, Django 3+
+
+4.WHAT IS PYDANTIC?
+Pydantic is a Python library that helps you validate and convert data
+ easily using Python classes.
+
+5.Why Dependency Injection? 
+Reusability – same function can work with different objects.
+Clean code – no need to create everything inside.
+Easier testing – you can pass fake/mock objects.
+Faster development – avoids repeating code.
+

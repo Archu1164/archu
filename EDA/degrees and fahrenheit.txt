@@ -1,0 +1,10 @@
+Difference Between Fahrenheit and Celsius (Degrees)
+1️.What is Celsius (°C)?
+Used in most countries
+Based on the freezing and boiling point of water
+0°C = freezing, 100°C = boiling
+
+2️.What is Fahrenheit (°F)?
+Mostly used in USA
+Different scale
+32°F = freezing, 212°F = boiling
