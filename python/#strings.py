@@ -26,3 +26,4 @@ print("{} is {} years old".format(name,age))
 price=49.35
 quantity=2
 print(f"Total:${price* quantity:.2f}")
+
