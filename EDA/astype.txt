@@ -1,0 +1,31 @@
+astype::
+
+astype is a function used to convert the data type of an array or a 
+column into another data type.
+
+arr.astype(int)
+
+1. astype in NumPy::
+
+import numpy as np
+arr = np.array([1.5, 2.3, 3.9])
+new_arr = arr.astype(int)
+
+print(new_arr)
+
+#Output
+[1 2 3]
+
+2. astype in Pandas::
+
+import pandas as pd
+df = pd.DataFrame({"Age": ["20", "30", "40"]})
+df["Age"] = df["Age"].astype(int)
+
+print(df)
+
+#Output
+   Age
+0   20
+1   30
+2   40

@@ -1,0 +1,34 @@
+GUIs (Graphical User Interfaces)
+
+Interfaces that allow users to interact with a computer using pictures,
+buttons, windows, icons, and mouse.
+Examples:
+
+.Windows OS
+.Android apps
+.Browsers (Chrome, Firefox)
+.Games
+.Calculator app
+
+==Features:
+.Easy to use
+.Mouse/Touchscreen-based
+.Visual elements (buttons, menus)
+.Beginner-friendly
+
+⭐ Non-GUIs (Command-Line / Text-based Interfaces)
+Interfaces where users interact using text commands, usually on a keyboard.
+
+Examples:
+
+Command Prompt (cmd)
+Terminal / Shell
+Python console
+MySQL terminal
+
+==Features:
+
+Uses text commands
+No visuals
+Faster for technical users
+Requires knowledge of commands
